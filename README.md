@@ -43,8 +43,6 @@ O projeto está publicado na Vercel e pode ser acessado através do link abaixo:
 
 ![Mobile Preview](/img/mobile-view.png)
 
-> ⚠️ Substitua as imagens acima por screenshots reais do projeto ou remova esta seção.
-
 ---
 
 ## 📦 Como rodar localmente
