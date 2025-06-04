@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e6eff5;
+  font-family: "Karla", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 635px;
+  height: 475px;
+  display: grid;
+  grid-template-rows: 216px 1fr;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+nav {
+  grid-column: 1 / 3;
+  background-color: #ffffff;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}
+
+nav h1 {
+  color: #2ab3b1;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+nav h2 {
+  color: #c0df33;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+nav p {
+  color: #9aa7be;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Aside */
+aside {
+  background-color: #2ab3b1;
+  color: #ffffff;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+}
+
+aside h2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+aside p:first-of-type {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+aside p:first-of-type span {
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.75;
+  margin-left: 10px;
+}
+
+aside p:last-of-type {
+  font-size: 16px;
+}
+
+aside button {
+  background-color: #c0df33;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+aside button:hover {
+  background-color: #b1ce2c;
+}
+
+/* Section */
+section {
+  background-color: #4abebd;
+  color: #ffffff;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+section h2 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+section p {
+  font-size: 14px;
+  line-height: 1.6;
+  opacity: 0.9;
+  white-space: pre-line;
+}
+
+/* ====== Desktop layout ====== */
+@media (min-width: 768px) {
+  .container {
+    display: grid;
+    grid-template-rows: 216px 1fr;
+    grid-template-columns: 1fr 1fr;
+    height: 475px;
+  }
+
+  nav {
+    grid-column: 1 / 3;
+  }
+
+  aside,
+  section {
+    height: 100%;
+  }
+}
