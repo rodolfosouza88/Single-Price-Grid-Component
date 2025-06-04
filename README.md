@@ -18,7 +18,7 @@ O layout foi desenvolvido de forma responsiva, seguindo o conceito **mobile firs
 
 O projeto está publicado na Vercel e pode ser acessado através do link abaixo:
 
-🔗 **[Clique aqui para acessar o projeto rodando](https://coloque-aqui-o-link.vercel.app)**
+🔗 **[Clique aqui para acessar o projeto rodando](https://single-price-grid-component-seven-jade.vercel.app/)**
 
 > ✅ Substitua o link acima após fazer o deploy!
 
