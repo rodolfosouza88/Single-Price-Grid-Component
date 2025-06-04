@@ -37,11 +37,11 @@ O projeto está publicado na Vercel e pode ser acessado através do link abaixo:
 
 ### ✅ Desktop
 
-![Desktop Preview](https://via.placeholder.com/600x400?text=Desktop+Preview)
+![Desktop Preview](/img/desktopview.png)
 
 ### ✅ Mobile
 
-![Mobile Preview](https://via.placeholder.com/300x600?text=Mobile+Preview)
+![Mobile Preview](/img/mobile-view.png)
 
 > ⚠️ Substitua as imagens acima por screenshots reais do projeto ou remova esta seção.
 
